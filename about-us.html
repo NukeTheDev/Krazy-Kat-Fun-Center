@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Krazy Kat Fun Center::About Us</title>
+<link rel="icon" type="image/png" href="images/favicon.png">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Krazy Kat Fun Center, a place to let go and have fun. 
+We have family go-karting, mini-golf, a krazy arcade center, waterslides and more.">
+<link href="style.css" rel="stylesheet">
+<script>
+  function ValidNo(myPhone) {
+    var regExp = /^[1-9]{1}[0-9]{2}[-][1-9]{1}[0-9]{2}[-][0-9]{4}$/;
+    var phone = document.forms["myForm"].myPhone.value
+    if (phone.match(regExp)) {
+      return true;
+    }
+    else {
+    alert("Invalid phone number. Use the format ###-###-####");
+    return false; }
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div id="flow">
+      <h1><a href="index.html"><img src="images/logo/logo.png" alt="logo" width="125" height="100"></a></h1>
+    </div>
+  </header>
+<nav>
+  <ul>
+   <li><a href="index.html">Home</a></li> 
+   <li><a href="attractions.html">Attractions</a>
+   <li><a href="food.html">Food</a></li>
+   <li><a href="pricing.html">Pricing</a></li>
+   <li><a href="about-us.html">About Us</a></li>
+  </ul>
+ </nav>
+<div id="wrapper">
+<div id="abouthero">
+</div>
+<main>
+ <div id="main_flow">
+ <section class="text_container">
+  <h2>Our History</h2>
+  <p><span class="funcenter">In late spring 2011,</span> an old entertainment park
+    <br>
+    was put up for sale on the market for $14,500.
+    <br>
+    So my friends and I started saving up for it.
+    <br>
+    Once we had enough, we purchased the old place.
+    <br> 
+    But since it had been poorly maintained,
+    <br> 
+    it was in need of a total remodelling.
+    <br>
+    We started by fixing up the old go-kart track,
+    <br>
+    ordering new arcade machines, and finally,
+    <br>
+    installing three hi-speed waterslides.
+    <br>
+    Now it is the entertaintainment powerhouse
+    <br> 
+    we always knew it had the potentential to be.</p>
+ </section>
+
+ <section class="text_container">
+  <h4>Testimonials:</h4>
+  <p>John Anderson: "I like Krazy Kat because it
+    <br>
+    allows all different groups to have fun
+    <br>
+    at a very reasonable price."</p>
+
+  <p>Jessica Fowler: "All I can say is if you want to have fun
+  <br>
+  on the weekend, this is the place to go hands down"</p>
+
+  <p>Donovan Lucas: "I love the atmosphere at Krazy Kat, 
+  <br>
+  it is very inviting and uniquely playful."</p>
+
+  <p>De'Angelo Warren: "If you want to surprise
+  <br>
+  your family with a, night out, this place will
+  <br>
+  blow their mind with how fun and entertaining 
+  <br>
+  it really is to be here in person."</p>
+ </section>
+ </div>
+
+ <div id="mid_flow">
+  <section>
+    <br>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3371.6494197790066!2d-90.2235058849611!3d32.32127111439029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8628337d2a7acde5%3A0xdad6e52a166c48f5!2sLivingston%20Park%20Dr%2C%20Jackson%2C%20MS%2039209!5e0!3m2!1sen!2sus!4v1678764339751!5m2!1sen!2sus" width="425" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </section>
+  <section class="text_container">
+   <h2>Leave a comment</h2>
+   <p>Required fields are marked with an asterisk*</p>
+   <form method="post" 
+   action="https://webdevbasics.net/scripts/demo.php">
+   <label for="FirstName">*First Name: </label><input type="text" 
+   name="FirstName" id="FirstName" required>
+   <label for="myLName">*Last Name: </label> <input type="text" 
+   name="LastName" id="LastName" required>
+   <label for="Email">*E-mail:</label> <input type="email" 
+   name="Email" id="Email" required>
+   <label for="Phone">*Phone: </label> <input type="tel" 
+   name="Phone" id="Phone" required>
+   <label for="Comments">*Comments:</label>
+   <textarea name="Comments" id="Comments" rows="2" 
+   cols="20" required ></textarea>
+   <input type="submit" id="mySubmit" value="Submit">
+   </form>
+ </section>
+</div>
+</main>
+<footer>
+  <div id="flow">
+    <section class="footer_logo">
+    <img src="images/logo/logo.png" alt="krazy-arcade" width="75" height="60">
+    <br>
+    Copyright &copy; 2023 Krazy Kat Fun Center
+    <br>
+    </section>
+  
+    <section>
+    <h1>Address</h1>
+    <br>
+      <span class = "funcenter">Krazy Kat Fun Center</span>
+      <br>
+       9842 Livingston Park Dr, Jackson, MS 39213
+    </section>
+  
+      <section>
+      <h1>Explore</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li> 
+        <li><a href="attractions.html">Attractions</a>
+        <li><a href="food.html">Food</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+     </ul>
+     <br>
+    </section>
+  
+    <section>
+      <h1>Contact Info</h1>
+       <a id="mobile" href="tel:888-555-5555">Phone: 888-555-5555</a>
+       <span id="desktop">Phone: 888-555-5555</span>
+      <h3>Questions or concerns? 
+      <br>
+      Contact us at our email below.</h3>
+      <h2><a href="mailto:krazykatfuncenter@gmail.com">krazykatfuncenter@gmail.com</a></h2>
+    </section>
+    </div>
+
+    <h1>Follow us</h1>
+      <a href="https://twitter.com/KKFunCenter?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-show-count="false">Follow @KKFunCenter</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+</footer>
+</div>
+</body>
+</html>
+
+
+
+
+

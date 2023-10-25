@@ -1,0 +1,245 @@
+* { box-sizing: border-box; }
+body { background-color: #ffffff; 
+       color: #666666;
+       font-family: Arial, Verdana, sans-serif;
+       margin: 0;}
+header { 
+         background-image: linear-gradient(#75e5d6 20%, #bbeedd 60%, #ffffff 100%);
+         font-family: Arial, Helvetica, sans-serif;}
+header a { 
+        text-decoration: none;}
+header a:link { color: #75e5d6; }
+header a:visited { color: #ffffff}
+header a:hover { color: #bbeedd; }
+h1 { text-align: center; 
+       margin: auto;
+	 font-size: 1.5em;
+   }
+h2 { 
+	 font-family: Georgia, serif;
+   }
+nav {    position: relative;
+       margin: 0 auto;
+	  text-align: center;
+	  color: #FFFFFF;
+	  font-size: 1.2em;	  
+	}
+nav a {text-decoration: none;}
+nav a:link { color: #4dc5ce; }
+nav a:visited { color: #75e5d6; }
+nav a:hover { color: #bbeedd; }
+nav ul { list-style-type: none;
+         flex-direction: column; 
+         padding-left: 0em;
+         margin: 0em;
+         display: flex;}
+
+nav li { padding-left: 1em;
+         padding-right: 1em;
+         padding-top: .5em;
+	  padding-bottom: .5em;
+         border-bottom: 1px solid ;
+         width: 100%;
+       }
+
+		 
+dt { color: #9d9d9d;
+font-weight: bold; }
+.funcenter{ color: #75ddba;
+font-size: 1.2em; }
+
+footer { position: relative;
+         text-align: center;
+         margin: 0 auto;
+         font-size: .80em;
+         font-style: italic;
+         padding: 1em;
+         background-color: #7c7c7c;
+         color:#FFFFFF
+	}
+
+#footer_logo {
+       margin: 0 auto;
+}
+
+footer a:link { color: #75ddba; }
+footer a:visited { color: #ffffffee; }
+footer a:hover { color: #bbeedd; }
+
+footer ul { list-style-type: none;
+            flex-direction: column; 
+            padding-left: 0em;
+            margin: 0em;
+            display: flex;}
+
+#wrapper {   
+          background-color: #FFFFFF;
+         }
+
+h3  {font-family: Georgia, serif; }
+
+h4 {font-family: Georgia, serif;
+       background-image: linear-gradient(to bottom, #ababab 20%, #dadada 60%, #ebebeb 100%);
+       font-size: 1.25em;
+       text-align: center;
+       padding: 2px;	;
+       color: #FFFFFF;
+}
+main {
+      display: block;
+      padding-bottom: 0em;
+      padding-top: 0em;
+      padding-left: 1em;
+      padding-right: 1em;
+}
+
+#homehero {height: 400px;           
+           background-color: #FFFFFF;
+           background-size: 200% 100%;
+           background-repeat: no-repeat;}
+#foodhero {height: 400px;           
+           background-color: #FFFFFF;
+           background-size: 200% 100%;
+           background-repeat: no-repeat;}
+#attractionhero {height: 400px;           
+           background-color: #FFFFFF;
+           background-size: 200% 100%;
+           background-repeat: no-repeat;}
+
+.text_container { margin: 1em; background-image: linear-gradient(#dddddd 20%, #ececec 60%, #f6f6f6 100%);}
+
+#shophero {height: 400px;  
+           background-image: url(images/Pricing_Hero.png);         
+           background-color: #FFFFFF;
+           background-size: 200% 100%;
+           background-repeat: no-repeat;}
+.shop { margin: 1em; background-image: linear-gradient(#dddddd 20%, #ececec 60%, #f6f6f6 100%);}
+.shop img { float: right; padding: 1em; }
+.shop form  { clear: right; }
+
+section { 
+          padding-left: .5em;
+          padding-right: .5em; }
+#mobile { display: inline; }
+#desktop { display: none; }
+table { margin: auto;
+        border: 1px solid #3399CC;
+        width: 90%; 
+		border-collapse: collapse;
+}
+
+td, th { padding: 5px; 
+         border: 1px solid #3399CC;
+}
+
+td { text-align: center; }
+
+.text { text-align: left; }
+.text_container h2 {
+       color: #666666;
+}
+.text_container p {
+       color: #666666;
+}
+
+tr:nth-of-type(even) { background-color: #DFEDF8; }
+
+form { display: flex; flex-direction: column;
+padding-left: 1em; width: 80%; }
+
+#abouthero {height: 400px;          
+           background-image: url(images/about_us_hero.png);
+           background-size: 100% 100%;
+           background-repeat: no-repeat;}
+		   
+input { margin-bottom: .5em; }
+textarea{ margin-bottom: .5em; }
+
+		  
+@media (min-width: 600px ) {
+
+       .header_logo{
+              width: 50px;
+              height: 50px;
+       }
+	h1 {   text-align: center;
+              letter-spacing:.25em; 
+	 font-size: 1.5em;}
+
+	nav ul { display: flex;
+                flex-flow: row nowrap;
+		  justify-content: space-around;
+                padding-right: 2em;		 }
+
+       footer ul { display: flex;
+                   flex-flow: column wrap;
+                   justify-content: space-around;
+                   padding-right: 2em;		 }
+       
+	nav li { border-bottom: none;
+             width: 12em;	}
+    section { 
+	     padding-left: 2em;
+            padding-right: 2em; }
+
+    #flow { display: flex;
+            justify-content: center;
+            flex-direction: row; }
+
+    #main_flow { display: flex;
+              justify-content: center;
+              flex-direction: row; }
+
+    #mid_flow { display: flex;
+              justify-content: center;
+              flex-direction: row; }
+
+    #footer-content { display: flex;
+            justify-content: center;
+            flex-direction: row; }
+
+	#mobile { display: none; }
+    #desktop { display: inline; }
+
+.fotorama{
+       min-width: 100%;
+       max-width: 100%; 
+       min-height:200px;
+       max-height: 400px;
+}
+.fotorama__stage {
+       margin: 0 auto;}
+
+#homehero {
+       background-size: 100% 100%;
+          }
+#foodhero {
+           background-size: 100% 100%;
+           }
+#attractionhero {
+           background-size: 100% 100%;
+           }
+#shophero {
+           background-size: 100% 100%;
+           }
+form { width: 60%; display: grid; 
+		grid-template-columns: 10em 1fr;
+		grid-gap: 1em;  }
+
+input[type="submit"] { grid-column: 2 / 3;
+                       width: 9em;
+                       background-image: linear-gradient(to bottom, #d9d9d9 20%, #e1e1e1 60%, #ececec 100%);
+                     } 
+					   
+#abouthero { background-size: 100% 100%; }
+}
+	
+@media (min-width: 1024px) {
+	body { background-image: linear-gradient(#ffffff 20%, #aaaaaa 60%, #dbdbdb 100%); }
+	nav ul { padding-right: 10%;
+             padding-left: 10%;	}
+	#wrapper { margin: auto;
+                  width: 80%;}
+                  
+}
+       		   
